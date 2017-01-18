@@ -1,0 +1,69 @@
+.album_content-gallery{
+	position: absolute;
+	bottom: 54px;
+	background-color: #333;
+	width: 100%;
+	height: 150px;
+	border-top: 4px solid #666;
+	min-width: 900px;
+}
+
+.album_content_top{
+	position: absolute;
+	top: 54px;
+	// background-color: #000;
+	width: 100%;
+	min-height: 900px;
+}
+
+.album_left_menu{
+	float: left;
+	margin-left: 0px;
+	width: 200px;
+	background-color: #333;
+	border-right: 4px solid #666;
+}
+
+.album_right_snap{
+	float: right;
+	margin-right: 0px;
+	width: 200px;
+	background-color: #333;
+	height: 600px;
+	border-left: 4px solid #666;
+}
+
+.album_content_wrapper{
+	width: 500px;
+	height: 500px;
+	margin-left: 300px;
+}
+
+.toolbox_title{
+	height: 38px;
+	width: 100%;
+	background-color: #111;
+	color: #eee;
+	line-height: 38px;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+	border-bottom: 2px solid #666;
+}
+
+.toolbox ul {
+	background-color: #444;
+	display: none;
+}
+
+.toolbox_content_block{
+	display: block;
+}
+
+#svgContainer { 
+	width:800px; 
+	height:600px; 
+	background-color:#EEEEEE; 
+} 
+#sourceDiv { float: left; border: 2px solid blue} 
+#targetDiv { float: right;border: 2px solid #333} 
